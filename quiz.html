@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="button-start">
+        <button>Start</button>
+    </div>
+    <!--infor-box-->
+    <div class="box">
+        <div class="title">
+            <span>1 Vài Quy Tắc Của Bài Trắc Nghiệm</span>
+        </div>
+        <div class="info-rule">
+            <div class="info">
+                1. Chọn 1 đáp án đúng trong 4 đáp án
+            </div>
+            <div class="info">
+                2. Không được chọn nhiều đáp án cùng 1 lúc
+            </div>
+            <div class="info">
+                3. Không được thoát khi đang trả lời câu hỏi
+            </div>
+            <div class="info">
+                4. Bạn sẽ nhận được kết sau khi làm xong bài kiểm tra
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+    <!--Question-->
+    <div class="quiz-box">
+        <header>
+            <div class="title">Trả lời câu hỏi dưới đây</div>
+        </header>
+
+        <section>
+            <div class="question">
+                <!-- <span>JavaScript là ngôn ngữ xử lý ở:</span> -->
+            </div>
+            <div class="option-list">
+                <!-- <div class="option">
+                    <span>Client</span>
+                    <div class="icon tick"><i class="fa-solid fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Server</span>
+                    <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Server/Client</span>
+                </div>
+                <div class="option">
+                    <span>Không có dạng nào</span>
+                </div> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="total-question">
+                <!-- <span>
+                    <p>2</p>trong<p>5</p>Câu hỏi
+                </span> -->
+            </div>
+            <button class="next-btn">Next QuesTion</button>
+        </footer>
+    </div>
+
+    <!--Result-->
+    <div class="result">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete">Bạn đã hoàn thành bài kiểm tra!</div>
+        <div class="score">
+            <!-- <span>Rất tiếc bạn chỉ trả lời đúng <p>2</p>trong<p>5</p> câu hỏi</span> -->
+        </div>
+
+        <div class="button">
+            <button class="restart">Làm lại bài Quiz</button>
+            <button class="quit">Thoát khỏi bài Quiz</button>
+        </div>
+    </div>
+</body>
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+
+</html>
